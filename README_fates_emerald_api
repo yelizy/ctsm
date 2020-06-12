@@ -24,6 +24,8 @@ Version 1.2, ??/??/????:
     (1) Set up simulations with prescribed standing structure
     (2) Set up and test transient simulations from pre-industrial (1850) to present (2020) 
 
+
+
 =============================================================================================
     QUICKSTART on SAGA:
 =============================================================================================
@@ -42,7 +44,34 @@ git checkout fates_emerald_api
 #### Create a case: 
 #--case: which directory your case will be create
 #--compset: which model component will be used, only DATM%1PTGSWP3 is available at the moment 
-#--res: currently available resolution are SeedClim Sites: 1x1_ALP1,1x1_ALP2,1x1_ALP3,1x1_ALP4,1x1_SUB1,1x1_SUB2,1x1_SUB3,1x1_SUB4,1x1_BOR1,1x1_BOR2,1x1_BOR3,1x1_BOR4
+#--res: currently available resolution are
+           SeedClim Sites: 1x1_ALP1,61.0243N,8.12343E
+                           1x1_ALP2,60.8231N,7.27596E
+                           1x1_ALP3,60.8328N,7.17561E
+                           1x1_ALP4,60.9335N,6.41504E
+                           1x1_SUB1,60.8203N,8.70466E
+                           1x1_SUB2,60.8760N,7.17666E
+                           1x1_SUB3,61.0866N,6.63028E
+                           1x1_SUB4,60.5445N,6.51468E
+                           1x1_BOR1,61.0355N,9.07876E
+                           1x1_BOR2,60.8803N,7.16982E
+                           1x1_BOR3,60.6652N,6.33738E
+                           1x1_BOR4,60.6901N,5.96487E
+           LandPress Sites:1x1_LYG,60.70084N,5.092566E  
+                           1x1_BUO,65.83677N,12.224506E
+                           1x1_HAV,64.779N,11.2193E
+                           1x1_SKO,65.79602N,12.219299E
+           Three-D Sites:  1x1_VIKE,60.88019N,7.16990E
+                           1x1_JOAS,60.86183N,7.16800E
+                           1x1_LIAH,60.85994N,7.19504E
+           Finnmark Site:  1x1_FINN,69.341088N,25.293524E
+
+           Other sites will be available:
+                  Finse (FNS) : 60.5938694N, 7.5272352E  (contact Yeliz) 
+                  Bayelva (BYV) : 78.92094N, 11.83334E   (contact Yeliz) 
+                  Iskoras (ISK) : 69.3405665N, 25.2956747E (contact Yeliz) 
+                  Hurdal (HUR): ??? (contact Hanna)
+
 #--machine: where to run the model, saga is the only option at the moment
 #--project: your project number on saga
 
