@@ -798,45 +798,45 @@ lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_1x1_mexicocityMEX_hist_16pfts_I
 <fsurdat hgrid="1x1_urbanc_alpha"    sim_year="2000" use_crop=".false." irrigate=".true.">
 lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_1x1_urbanc_alpha_hist_16pfts_Irrig_CMIP6_simyr2000_c190214.nc</fsurdat>
 <fsurdat hgrid="1x1_ALP1"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/ALP1/surfdata_ALP1_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/ALP1/surfdata_ALP1_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_ALP2"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/ALP2/surfdata_ALP2_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/ALP2/surfdata_ALP2_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_ALP3"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/ALP3/surfdata_ALP3_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/ALP3/surfdata_ALP3_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_ALP4"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/ALP4/surfdata_ALP4_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/ALP4/surfdata_ALP4_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_SUB1"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/SUB1/surfdata_SUB1_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/SUB1/surfdata_SUB1_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_SUB2"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/SUB2/surfdata_SUB2_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/SUB2/surfdata_SUB2_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_SUB3"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/SUB3/surfdata_SUB3_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/SUB3/surfdata_SUB3_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_SUB4"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/SUB4/surfdata_SUB4_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/SUB4/surfdata_SUB4_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_BOR1"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/BOR1/surfdata_BOR1_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/BOR1/surfdata_BOR1_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_BOR2"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/BOR2/surfdata_BOR2_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/BOR2/surfdata_BOR2_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_BOR3"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/BOR3/surfdata_BOR3_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/BOR3/surfdata_BOR3_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_BOR4"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/BOR4/surfdata_BOR4_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/BOR4/surfdata_BOR4_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_LYG"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/LYG/surfdata_LYG_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/LYG/surfdata_LYG_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_BUO"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/BUO/surfdata_BUO_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/BUO/surfdata_BUO_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_HAV"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/HAV/surfdata_HAV_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/HAV/surfdata_HAV_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_SKO"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/SKO/surfdata_SKO_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/fSKO/surfdata_SKO_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_VIKE"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/VIKE/surfdata_VIKE_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/VIKE/surfdata_VIKE_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_JOAS"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/JOAS/surfdata_JOAS_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/JOAS/surfdata_JOAS_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_LIAH"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/LIAH/surfdata_LIAH_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/LIAH/surfdata_LIAH_simyr2000.nc</fsurdat>
 <fsurdat hgrid="1x1_FINN"    sim_year="2000" use_crop=".false." irrigate=".true.">
-lnd/clm2/surfdata_map/fates_platform/FINN/surfdata_FINN_simyr2000.nc</fsurdat>
+lnd/clm2/surfdata_map/FINN/surfdata_FINN_simyr2000.nc</fsurdat>
 
 
 
@@ -1431,6 +1431,19 @@ lnd/clm2/surfdata_map/landuse.timeseries_ne30np4_hist_16pfts_Irrig_CMIP6_simyr18
 
 <stream_fldfilename_urbantv phys="clm4_5" hgrid="0.9x1.25" 
 >lnd/clm2/urbandata/CLM45_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923.nc</stream_fldfilename_urbantv>
+
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_ALP1" >lnd/clm2/urbandata/ALP1/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_ALP1.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_ALP2" >lnd/clm2/urbandata/ALP2/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_ALP2.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_ALP3" >lnd/clm2/urbandata/ALP3/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_ALP3.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_ALP4" >lnd/clm2/urbandata/ALP4/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_ALP4.nc</stream_fldfilename_urbantv>    
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_SUB1" >lnd/clm2/urbandata/SUB1/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_SUB1.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_SUB2" >lnd/clm2/urbandata/SUB2/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_SUB2.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_SUB3" >lnd/clm2/urbandata/SUB3/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_SUB3.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_SUB4" >lnd/clm2/urbandata/SUB4/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_SUB4.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_BOR1" >lnd/clm2/urbandata/BOR1/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_BOR1.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_BOR2" >lnd/clm2/urbandata/BOR2/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_BOR2.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_BOR3" >lnd/clm2/urbandata/BOR3/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_BOR3.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_BOR4" >lnd/clm2/urbandata/BOR4/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_BOR4.nc</stream_fldfilename_urbantv>
 
 <urbantvmapalgo >nn</urbantvmapalgo>
 
