@@ -34,9 +34,18 @@ Version 1.2, ??/??/????:
 #### Clone git repository
 git clone https://github.com/NordicESMhub/ctsm.git
 
-#### Checkout branch "fates_emerald_api"
-cd ~/ctsm
-git checkout fates_emerald_api
+#### For developer, please checkout branch "fates_emerald_api"
+  cd ~/ctsm
+  git checkout fates_emerald_api  # The branch will have the same name as the branch name. 
+  or:
+  git checkout fates_emerald_api -b new_branch_name   # if you want to create a new branch name.
+#### For user, please checkout "release tag" of the platform, e.g., release-emerald-platform1.0.0.
+  cd ~/ctsm
+  git checkout release-emerald-platform1.0.0                      # The branch will have the same name as the tag name. 
+  or
+  git checkout release-emerald-platform1.0.0 -b new_branch_name   # if you want to create a new branch name.
+#### More details on the workflow for developing the platform are available at ??????
+
 
 #### Download other external codes
 ./manage_externals/checkout_externals 
@@ -44,7 +53,7 @@ git checkout fates_emerald_api
 #### Create a case: 
 #--case: which directory your case will be create
 #--compset: which model component will be used, only DATM%1PTGSWP3 is available at the moment 
-#--res: currently available resolution are
+#--res: currently available resolution are as following. More details about each sites can be found in: ?????
            SeedClim Sites: 1x1_ALP1,61.0243N,8.12343E
                            1x1_ALP2,60.8231N,7.27596E
                            1x1_ALP3,60.8328N,7.17561E
@@ -67,16 +76,27 @@ git checkout fates_emerald_api
            Finnmark Site:  1x1_FINN,69.341088N,25.293524E
 
            Other sites will be available:
-                  Finse (FNS) : 60.5938694N, 7.5272352E  (contact Yeliz) 
-                  Bayelva (BYV) : 78.92094N, 11.83334E   (contact Yeliz) 
-                  Iskoras (ISK) : 69.3405665N, 25.2956747E (contact Yeliz) 
-                  Hurdal (HUR): ??? (contact Hanna)
+                  Finse (FNS) : 60.5938694N, 7.5272352E  (contact Yeliz, LATICE project) 
+                  Bayelva (BYV) : 78.92094N, 11.83334E   (contact Yeliz, LATICE project) 
+                  Iskoras (ISK) : 69.3405665N, 25.2956747E (contact Yeliz, LATICE project) 
+                  Hedmark/Trysil : the mire site with EC-flux measurements run by Norbert (Lena, Norbert)
+                  Svanhovd: has also an extensive record of environmental data (Stefanie, DoublePunch project)
+                  Adventdalen (ADVN) : 78.18333N, 15.91667E (Dev, Frans-Jan)
+                  Hurdal (HUR): ??? (Hanna)
+                  
 
 #--machine: where to run the model, saga is the only option at the moment
 #--project: your project number on saga
 
 cd ~/ctsm/cime/scripts
 ./create_newcase --case ../../../ctsm_cases/YOUR_CASE_NAME --compset 2000_DATM%1PTGSWP3_CLM50%FATES_SICE_SOCN_MOSART_SGLC_SWAV --res 1x1_ALP1 --machine saga --run-unsupported --project nn2806k
+
+
+#### Copy inputdata for the site to your working directory, e.g.:
+
+cp /cluster/shared/noresm/inputdata_fates_platform/inputdata_version1.0.0_ALP1.tar /cluster/work/users/$USER/
+cd /cluster/work/users/$USER/
+tar xvf inputdata_version1.0.0_ALP1.tar
 
 #### Run a case
 
@@ -114,5 +134,15 @@ cd /cluster/work/users/YOUR_SAGA_ACCOUNT/archive/YOUR_CASE_NAME        # when mo
 =============================================================================================
 For more detail on the platform and its usage, please refere to "README_fates_emerald_api_expert_only"     
 =============================================================================================
+
+=============================================================================================
+    QUICKSTART on GALAXY:
+=============================================================================================
+Tutorials can be found at: https://github.com/NordicESMhub/galaxy-training-material/blob/fates/topics/climate/tutorials/fates/tutorial.md
+
+Available exerpiments and results using FATES_emerald_platform can be found: https://docs.google.com/spreadsheets/d/1yHFbRDTyYBv61klcgdJpIWNc5rN-FzBmMF50AgiPeWc/edit?usp=sharing
+
+
+
 
 

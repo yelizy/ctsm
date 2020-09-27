@@ -47,10 +47,10 @@ https://github.com/NordicESMhub/cime/blob/cime5.6.10_noresm2_1_rel_06/config/ces
 
 
 **** If you want to set up new sites, please follow the following steps ****
-######## Make script grids (see "prepare_inputdata.sh" in ./tools)
-######## Make domain file  (see "prepare_inputdata.sh" in ./tools)
-######## Make mapping file (see "prepare_inputdata.sh" in ./tools)
-######## Make surface data file (see "prepare_inputdata.sh" in ./tools)
+######## Make script grids (see "prepare_inputdata.sh" in ~/ctsm/tools/emerald_sites_tools)
+######## Make domain file  (see "prepare_inputdata.sh" in ~/ctsm/tools/emerald_sites_tools)
+######## Make mapping file (see "prepare_inputdata.sh" in ~/ctsm/tools/emerald_sites_tools)
+######## Make surface data file (see "prepare_inputdata.sh" in ~/ctsm/tools/emerald_sites_tools)
 ######## Make and modify FATES parameter file:
          ## Use existing tools:
            ./src/fates/tools/FatesPFTIndexSwapper.py        # Select PFTs interested. 

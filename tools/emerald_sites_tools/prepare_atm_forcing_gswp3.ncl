@@ -31,7 +31,7 @@ begin
    print(month)
 
    do p=0,2,1
-      clim_output   = "/cluster/shared/noresm/inputdata/atm/datm7/fates_platform/"+plot_name(p)+"/"
+      clim_output   = "/cluster/shared/noresm/inputdata_fates_platform/atm/datm7/GSWP3v1/"+plot_name(p)+"/"
       clim_input    = "/cluster/shared/noresm/inputdata/atm/datm7/atm_forcing.datm7.GSWP3.0.5d.v1.c170516/"
       system("mkdir -p "+ clim_output)
       xfloor=plot_lon(p)-0.005

@@ -1444,6 +1444,14 @@ lnd/clm2/surfdata_map/landuse.timeseries_ne30np4_hist_16pfts_Irrig_CMIP6_simyr18
 <stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_BOR2" >lnd/clm2/urbandata/BOR2/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_BOR2.nc</stream_fldfilename_urbantv>
 <stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_BOR3" >lnd/clm2/urbandata/BOR3/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_BOR3.nc</stream_fldfilename_urbantv>
 <stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_BOR4" >lnd/clm2/urbandata/BOR4/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_BOR4.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_LYG" >lnd/clm2/urbandata/LYG/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_LYG.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_BUO" >lnd/clm2/urbandata/BUO/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_BUO.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_HAV" >lnd/clm2/urbandata/HAV/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_HAV.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_SKO" >lnd/clm2/urbandata/SKO/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_SKO.nc</stream_fldfilename_urbantv>    
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_VIKE" >lnd/clm2/urbandata/VIKE/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_VIKE.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_JOAS" >lnd/clm2/urbandata/JOAS/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_JOAS.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_LIAH" >lnd/clm2/urbandata/LIAH/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_LIAH.nc</stream_fldfilename_urbantv>
+<stream_fldfilename_urbantv phys="clm5_0" hgrid="1x1_FINN" >lnd/clm2/urbandata/FINN/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923_FINN.nc</stream_fldfilename_urbantv>
 
 <urbantvmapalgo >nn</urbantvmapalgo>
 
