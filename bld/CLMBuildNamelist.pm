@@ -2341,9 +2341,9 @@ sub setup_logic_initial_conditions {
                 }
              }
           } else {
-             if ( $nl_flags->{'clm_start_type'} =~ /startup/  ) {
-                $log->fatal_error("clm_start_type is startup so an initial conditions ($var) file is required, but can't find one without $useinitvar being set to true");
-             }
+ #            if ( $nl_flags->{'clm_start_type'} =~ /startup/  ) {
+ #               $log->fatal_error("clm_start_type is startup so an initial conditions ($var) file is required, but can't find one without $useinitvar being set to true");
+#             }
              $try = $done;
           }
        } else {
