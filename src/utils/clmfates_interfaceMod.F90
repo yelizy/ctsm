@@ -2152,7 +2152,7 @@ module CLMFatesInterfaceMod
 
     end associate
 
-    call t_stopf('fates_wrap_hifrq_hist')
+    call t_stopf('fates_update_hifrq_hist')
 
   end subroutine wrap_update_hifrq_hist
 
