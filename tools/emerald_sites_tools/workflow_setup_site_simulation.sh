@@ -6,10 +6,12 @@
 #SBATCH --ntasks=1
 #SBATCH --time=07:00:00
 
-date="200927"         # Need to be the same as the running date
+# "creat_mapping" need extra large memory and long time (several hours) to finish. Thus, it is bettter to be run in a queue system (This is why the batch configuration is provided at the begining.)
+
+date="200927"         # Date when you create the inputdata. 
 input_dir="/cluster/shared/noresm/inputdata_fates_platform" # home folder for storing the inputdata for each site. 
 input_raw="/cluster/shared/noresm/inputdata"                # home folder for storing the raw date required by surface data file
-version  ="version1.0.0"                                    # version of inputdata
+version  ="version2.0.0"                                    # version of inputdata
 
 ######### SeedClim Sites
 #plotlat=(61.0243 60.8231 60.8328 60.9335 60.8203 60.8760 61.0866 60.5445 61.0355 60.8803 60.6652 60.6901)
@@ -31,16 +33,23 @@ plotlat=(69.341088)
 plotlon=(25.293524)
 plotname=(FINN)
 
-creat_script="T"               # T or F, switch for creating script grid or not
-creat_domain="T"               # T or F, switch for creating domain file
+
+######### Switch for all the steps related to setting a site simulation. 
+######### Set all "creat_****" switches to "T" to create inputdata for the site simulation
+######### Set "tar_input" to "T" to wrap up all the inputdata to a tar file
+######### Set "run_***" to "T" to run the site simulation
+
+creat_script="F"               # T or F, switch for creating script grid or not
+creat_domain="F"               # T or F, switch for creating domain file
 creat_mapping="F"              # T or F, switch for creating mapping file
 creat_surfdat="F"              # T or F, switch for creating surface data file
 creat_aero="F"                 # T or F, switch for creating aerosol depostion file for each site. If "F", model will use global data as input.               
 creat_topo="F"                 # T or F, switch for creating topography file for each site. If "F", model will use global data as input. 
 creat_urb="F"                  # T or F, switch for creating urban data file for each site. If "F", model will use global data as input. 
+creat_fire="F"                 # T or F, switch for creating fire data file for each site. If "F", model will use global data as input. 
 creat_atm="F"                  # T or F, switch for creating atmospheric forcing. 
 tar_input="F"                  # T or F, switch for tar all the input data required for each site.
-run_case="F"                   # T or F, switch for running many clm experiments automatically. "T" can only be used when all the inputdata are ready!!!!  
+run_case="F"                   # T or F, switch for running site simulations automatically. "T" can only be used when all the inputdata are ready!!!!  
 run_case_first="F"             # T or F, swtich for creating, building and submitting short test runs
 run_case_second="F"            # T or F, swtich for running long experiments
 
@@ -124,7 +133,6 @@ fi
 
 ######## Creating aerosol depostion file for each site               
             
-tar_input="F"  
 if [ ${creat_aero} == "T" ]
 then
    module purge
@@ -152,6 +160,17 @@ then
    cd ~/ctsm/tools/emerald_sites_tools
    #### You need to modify the settings in "urbandata_site_clm5.ncl" before doing the following command. See detailed instructions in the file.  
    ncl urbandata_site_clm5.ncl
+fi
+
+######## Creating fire input data file for each site. This is required in release v2.0.0. 
+if [ ${creat_fire} == "T" ]
+then
+   module purge
+   module load NCL/6.6.2-intel-2019b
+   cd ~/ctsm/tools/emerald_sites_tools
+   #### You need to modify the settings in "lightning_site_clm5.ncl" and "popden_site_clm5.ncl" before doing the following command. See detailed instructions in the file.  
+   ncl lightning_site_clm5.ncl
+   ncl popden_site_clm5.ncl
 fi
 
 ######## Creating urban data file for each site

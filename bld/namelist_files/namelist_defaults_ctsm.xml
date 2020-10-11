@@ -1260,11 +1260,34 @@ lnd/clm2/surfdata_map/landuse.timeseries_ne30np4_hist_16pfts_Irrig_CMIP6_simyr18
 
 <stream_year_first_lightng use_cn=".true."   >0001</stream_year_first_lightng>
 <stream_year_last_lightng  use_cn=".true."   >0001</stream_year_last_lightng>
-<stream_year_first_lightng use_fates=".true.">0001</stream_year_first_lightng>
-<stream_year_last_lightng  use_fates=".true.">0001</stream_year_last_lightng>
+<!--stream_year_first_lightng use_fates=".true.">0001</stream_year_first_lightng-->
+<!--stream_year_last_lightng  use_fates=".true.">0001</stream_year_last_lightng-->
+<stream_year_first_lightng use_fates=".true." sim_year="2000" >2000</stream_year_first_lightng>
+<stream_year_last_lightng  use_fates=".true." sim_year="2000" >2000</stream_year_last_lightng>
+
 
 <stream_fldfilename_lightng hgrid="94x192"    use_cn=".true."   >atm/datm7/NASA_LIS/clmforc.Li_2012_climo1995-2011.T62.lnfm_Total_c140423.nc</stream_fldfilename_lightng>
 <stream_fldfilename_lightng hgrid="360x720"   use_cn=".true."   >atm/datm7/NASA_LIS/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_ALP1"  >atm/datm7/NASA_LIS/ALP1/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_ALP1.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_ALP2" >atm/datm7/NASA_LIS/ALP2/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_ALP2.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_ALP3" >atm/datm7/NASA_LIS/ALP3/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_ALP3.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_ALP4" >atm/datm7/NASA_LIS/ALP4/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_ALP4.nc</stream_fldfilename_lightng>    
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_SUB1" >atm/datm7/NASA_LIS/SUB1/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_SUB1.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_SUB2" >atm/datm7/NASA_LIS/SUB2/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_SUB2.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_SUB3" >atm/datm7/NASA_LIS/SUB3/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_SUB3.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_SUB4" >atm/datm7/NASA_LIS/SUB4/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_SUB4.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_BOR1" >atm/datm7/NASA_LIS/BOR1/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_BOR1.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_BOR2" >atm/datm7/NASA_LIS/BOR2/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_BOR2.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_BOR3" >atm/datm7/NASA_LIS/BOR3/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_BOR3.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_BOR4" >atm/datm7/NASA_LIS/BOR4/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_BOR4.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_LYG" >atm/datm7/NASA_LIS/LYG/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_LYG.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_BUO" >atm/datm7/NASA_LIS/BUO/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_BUO.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_HAV" >atm/datm7/NASA_LIS/HAV/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_HAV.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_SKO" >atm/datm7/NASA_LIS/SKO/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_SKO.nc</stream_fldfilename_lightng>    
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_VIKE" >atm/datm7/NASA_LIS/VIKE/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_VIKE.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_JOAS" >atm/datm7/NASA_LIS/JOAS/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_JOAS.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_LIAH" >atm/datm7/NASA_LIS/LIAH/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_LIAH.nc</stream_fldfilename_lightng>
+<stream_fldfilename_lightng use_fates=".true." hgrid="1x1_FINN" >atm/datm7/NASA_LIS/FINN/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825_FINN.nc</stream_fldfilename_lightng>
 <stream_fldfilename_lightng use_fates=".true."   >atm/datm7/NASA_LIS/clmforc.Li_2016_climo1995-2013.360x720.lnfm_Total_c160825.nc</stream_fldfilename_lightng>
 
 <lightngmapalgo use_cn=".true."                               >bilinear</lightngmapalgo>
@@ -1277,6 +1300,49 @@ lnd/clm2/surfdata_map/landuse.timeseries_ne30np4_hist_16pfts_Irrig_CMIP6_simyr18
 <lightngmapalgo use_cn=".true."   hgrid="1x1_camdenNJ"        >nn</lightngmapalgo>
 <lightngmapalgo use_cn=".true."   hgrid="1x1_asphaltjungleNJ" >nn</lightngmapalgo>
 <lightngmapalgo use_cn=".true."   hgrid="5x5_amazon"          >nn</lightngmapalgo>
+
+<lightngmapalgo use_cn=".true."   hgrid="1x1_ALP1"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_ALP2"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_ALP3"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_ALP4"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_SUB1"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_SUB2"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_SUB3"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_SUB4"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_BOR1"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_BOR2"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_BOR3"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_BOR4"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_LYG"             >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_BUO"             >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_HAV"             >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_SKO"             >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_VIKE"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_JOAS"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_LIAH"            >nn</lightngmapalgo>
+<lightngmapalgo use_cn=".true."   hgrid="1x1_FINN"            >nn</lightngmapalgo>
+
+<lightngmapalgo use_fates=".true."   hgrid="1x1_ALP1"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_ALP2"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_ALP3"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_ALP4"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_SUB1"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_SUB2"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_SUB3"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_SUB4"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_BOR1"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_BOR2"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_BOR3"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_BOR4"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_LYG"             >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_BUO"             >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_HAV"             >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_SKO"             >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_VIKE"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_JOAS"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_LIAH"            >nn</lightngmapalgo>
+<lightngmapalgo use_fates=".true."   hgrid="1x1_FINN"            >nn</lightngmapalgo>
+
 
 <!-- Population density streams namelist defaults -->
 <stream_year_first_popdens phys="clm4_5" cnfireson=".true." sim_year_range="1850-2100"  >2015</stream_year_first_popdens>
@@ -1341,6 +1407,27 @@ lnd/clm2/surfdata_map/landuse.timeseries_ne30np4_hist_16pfts_Irrig_CMIP6_simyr18
 <stream_fldfilename_popdens hgrid="0.5x0.5"   use_cn=".true." ssp_rcp="SSP5-3.4" >lnd/clm2/firedata/clmforc.Li_2018_SSP5_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2100_c181205.nc
 </stream_fldfilename_popdens>
 
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_ALP1" >lnd/clm2/firedata/ALP1/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_ALP1.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_ALP2" >lnd/clm2/firedata/ALP2/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_ALP2.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_ALP3" >lnd/clm2/firedata/ALP3/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_ALP3.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_ALP4" >lnd/clm2/firedata/ALP4/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_ALP4.nc</stream_fldfilename_popdens>    
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_SUB1" >lnd/clm2/firedata/SUB1/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_SUB1.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_SUB2" >lnd/clm2/firedata/SUB2/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_SUB2.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_SUB3" >lnd/clm2/firedata/SUB3/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_SUB3.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_SUB4" >lnd/clm2/firedata/SUB4/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_SUB4.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_BOR1" >lnd/clm2/firedata/BOR1/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_BOR1.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_BOR2" >lnd/clm2/firedata/BOR2/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_BOR2.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_BOR3" >lnd/clm2/firedata/BOR3/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_BOR3.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_BOR4" >lnd/clm2/firedata/BOR4/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_BOR4.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_LYG" >lnd/clm2/firedata/LYG/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_LYG.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_BUO" >lnd/clm2/firedata/BUO/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_BUO.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_HAV" >lnd/clm2/firedata/HAV/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_HAV.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_SKO" >lnd/clm2/firedata/SKO/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_SKO.nc</stream_fldfilename_popdens>    
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_VIKE" >lnd/clm2/firedata/VIKE/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_VIKE.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_JOAS" >lnd/clm2/firedata/JOAS/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_JOAS.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_LIAH" >lnd/clm2/firedata/LIAH/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_LIAH.nc</stream_fldfilename_popdens>
+<stream_fldfilename_popdens use_fates=".true." hgrid="1x1_FINN" >lnd/clm2/firedata/FINN/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202_FINN.nc</stream_fldfilename_popdens>
+
 <stream_fldfilename_popdens hgrid="0.5x0.5"   use_fates=".true." >lnd/clm2/firedata/clmforc.Li_2017_HYDEv3.2_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2016_c180202.nc</stream_fldfilename_popdens>
 <stream_fldfilename_popdens hgrid="0.5x0.5"   use_fates=".true." ssp_rcp="SSP1-1.9" >lnd/clm2/firedata/clmforc.Li_2018_SSP1_CMIP6_hdm_0.5x0.5_AVHRR_simyr1850-2100_c181205.nc
 </stream_fldfilename_popdens>
@@ -1398,6 +1485,26 @@ lnd/clm2/surfdata_map/landuse.timeseries_ne30np4_hist_16pfts_Irrig_CMIP6_simyr18
 <popdensmapalgo use_fates=".true." hgrid="1x1_camdenNJ"        >nn</popdensmapalgo>
 <popdensmapalgo use_fates=".true." hgrid="1x1_asphaltjungleNJ" >nn</popdensmapalgo>
 <popdensmapalgo use_fates=".true." hgrid="5x5_amazon"          >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_ALP1"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_ALP2"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_ALP3"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_ALP4"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_SUB1"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_SUB2"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_SUB3"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_SUB4"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_BOR1"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_BOR2"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_BOR3"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_BOR4"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_LYG"             >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_BUO"             >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_HAV"             >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_SKO"             >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_VIKE"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_JOAS"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_LIAH"            >nn</popdensmapalgo>
+<popdensmapalgo use_fates=".true."   hgrid="1x1_FINN"            >nn</popdensmapalgo>
 
 <!-- Urban time varying streams namelist defaults -->
 <stream_year_first_urbantv phys="clm5_0" sim_year_range="1850-2100" >2015</stream_year_first_urbantv>
