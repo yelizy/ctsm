@@ -16,11 +16,11 @@ begin
 ;SeedClim Sites: "ALP1","ALP2","ALP3","ALP4","SUB1","SUB2","SUB3","SUB4","BOR1","BOR2","BOR3","BOR4"
 ;        Height: 1208,1097,1213,1088,815,700,769,797,589,474,431,346
 ;Landpress Sites: "LYG","BUO","HAV","SKO"
-;         Height:
+;        Height: 15, 7, 9, 10
 ;Three-D Sites: "VIKE","JOAS","LIAH"
-;       Height: 469,920,1290
+;        Height: 469,920,1290
 ;Finnmark Site: "FINN"
-;        Height:
+;        Height: 352 
  
   do p=0,2,1
  
