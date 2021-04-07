@@ -16,32 +16,38 @@ begin
 ;   plot_name=(/"LYG","BUO","HAV","SKO"/)
 
 ;######### Three-D Sites
-    plot_lat=(/60.88019,60.86183,60.85994/)
-    plot_lon=(/7.16990,7.16800,7.19504/)
-    plot_name=(/"VIKE","JOAS","LIAH"/)
+;    plot_lat=(/60.88019,60.86183,60.85994/)
+;    plot_lon=(/7.16990,7.16800,7.19504/)
+;    plot_name=(/"VIKE","JOAS","LIAH"/)
 
 ;######### Finnmark Site
 ;   plot_lat=(/69.341088/)
 ;   plot_lon=(/25.293524/)
 ;   plot_name=(/"FINN"/)
 
+######### LATICE MIP Sites, Hisasen two sites, Adventdalen, Svanhovd
+plot_lat=(/60.5938694, 78.92094, 69.340851, 61.10513687, 61.11149979, 78.18333, 69.45/)
+plot_lon=(/7.5272352, 11.83334, 25.295484, 12.25475025, 12.25084496, 15.91667, 30.033333/)
+plot_name=(/"FNS", "BYV", "ISK", "HIS1", "HIS2", "ADVN", "SVN"/)
+
+
    mon = ispan(0,11,1)
    mon@units  = "month"
    month =cd_string(mon,"%N")   
    print(month)
 
-   do p=0,2,1
-      clim_output   = "/cluster/shared/noresm/inputdata_fates_platform/atm/datm7/GSWP3v1/"+plot_name(p)+"/"
+   do p=0,6,1
+      clim_output   = "/cluster/home/yeliz/inputdata_fates_platform/atm/datm7/GSWP3v1/"+plot_name(p)+"/"
       clim_input    = "/cluster/shared/noresm/inputdata/atm/datm7/atm_forcing.datm7.GSWP3.0.5d.v1.c170516/"
       system("mkdir -p "+ clim_output)
       xfloor=plot_lon(p)-0.005
       xceil =plot_lon(p)+0.005
       yfloor=plot_lat(p)-0.005
       yceil =plot_lat(p)+0.005
-      print(yceil)
-      print(xceil)
+      ;print(yceil)
+      ;print(xceil)
 
-      do year=1901,2010,1 
+      do year=1901,1910,1   
          do m=0,11,1
                
             frsds=addfile(clim_input+"/Solar/clmforc.GSWP3.c2011.0.5x0.5.Solr."+year+"-"+month(m)+".nc","r")
@@ -68,8 +74,8 @@ begin
       
             loni=ind_nearest_coord(plot_lon(p), lon, 0)
             latj=ind_nearest_coord(plot_lat(p), lat, 0)
-            print(loni)
-            print(latj)
+            ;print(loni)
+            ;print(latj)
 
 ;########## Creat forcing in netcdf format
 
@@ -127,7 +133,7 @@ begin
  
             setfileoption(fclim,"DefineMode",False)
  
-            print(time)
+            ;print(time)
             fclim->time   = (/time/)        ; "(/", "/)" syntax tells NCL to only output the data values to the predefined locations on the file.
             fclim->EDGEW  = (/xfloor/)
             fclim->EDGEE  = (/xceil/) 

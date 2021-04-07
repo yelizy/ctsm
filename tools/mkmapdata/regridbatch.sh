@@ -14,21 +14,24 @@
 #SBATCH --ntasks=1
 #SBATCH --time=05:00:00
 
-source /cluster/bin/jobsetup
-module load ESMF/8.0.0-intel-2019b
-module load NCO/4.9.1-intel-2019b 
-module load NCL/6.6.2-intel-2019b
+#source /cluster/bin/jobsetup
+module load ESMF/7.1.0r-intel-2018b  #ESMF/8.0.0-intel-2019b
+module load NCO/4.7.9-intel-2018b 
+module load NCL/6.6.2-intel-2018b
 
 export ESMF_NETCDF_LIBS="-lnetcdff -lnetcdf -lnetcdf_c++"
 #export ESMF_DIR=/usit/abel/u1/huit/ESMF/esmf
 export ESMF_COMPILER=intel
 export ESMF_COMM=openmpi
 #export ESMF_NETCDF="test"
-export ESMF_NETCDF_LIBPATH=/cluster/software/ESMF/8.0.0-intel-2019b/lib
-export ESMF_NETCDF_INCLUDE=/cluster/software/ESMF/8.0.0-intel-2019b/include
+#export ESMF_NETCDF_LIBPATH=/cluster/software/ESMF/8.0.0-intel-2019b/lib
+export ESMF_NETCDF_LIBPATH=/cluster/software/ESMF/7.1.0r-intel-2018b/lib
+#export ESMF_NETCDF_INCLUDE=/cluster/software/ESMF/8.0.0-intel-2019b/include
+export ESMF_NETCDF_INCLUDE=/cluster/software/ESMF/7.1.0r-intel-2018b/include
 ulimit -s unlimited
  
-export ESMFBIN_PATH=/cluster/software/ESMF/8.0.0-intel-2019b/bin
+#export ESMFBIN_PATH=/cluster/software/ESMF/8.0.0-intel-2019b/bin
+export ESMFBIN_PATH=/cluster/software/ESMF/7.1.0r-intel-2018b/bin
 export CSMDATA=/cluster/shared/noresm/inputdata
 export MPIEXEC=mpirun
 

@@ -4,20 +4,21 @@
 # Setup begin
 #######################
 
-date="200927"         # DATE when the domain files were created.
+date=`date +"%y%m%d"`   #"200927"         # DATE when the domain files were created.
 
-plotname=(ALP1 ALP2 ALP3 ALP4 SUB1 SUB2 SUB3 SUB4 BOR1 BOR2 BOR3 BOR4 LYG BUO HAV SKO VIKE JOAS LIAH FINN)    # Plot name
+#plotname=(ALP1 ALP2 ALP3 ALP4 SUB1 SUB2 SUB3 SUB4 BOR1 BOR2 BOR3 BOR4 LYG BUO HAV SKO VIKE JOAS LIAH FINN)    # Plot name
+plotname=(FNS BYV ISK HIS1 HIS2 ADVN SVN)
 #SeedClim Sites: ALP1 ALP2 ALP3 ALP4 SUB1 SUB2 SUB3 SUB4 BOR1 BOR2 BOR3 BOR4
 #Landpress Sites: LYG BUO HAV SKO
 #Three-D Sites: VIKE JOAS LIAH
 #Finnmark Site: FINN
 
-site_num="12 13 14 15 16 17 18 19"      #0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+site_num="20 21 22 23 24 25 26"      #0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
 
 atm_forc="GSWP3v1"    #GSWP3v1, COSMO6km (not ready yet), ERA5land (not ready yet)
 
-input_dir="/cluster/shared/noresm/inputdata_fates_platform"  # input directory where the input data are kept. 
-temp_dir=$HOME/inputdata_fates_platform                      # temporary directory for keeping the re-organized input data. 
+input_dir="/cluster/home/yeliz/inputdata_fates_platform"  # input directory where the input data are kept. 
+temp_dir=$HOME/inputdata_fates_platform_temp                      # temporary directory for keeping the re-organized input data. 
 
 fates_para="fates_params_api.14.0.0_12pft_c200921.nc"
 clm_para="clm5_params.c200402.nc"
@@ -64,8 +65,8 @@ do
    cp ${input_dir}/lnd/clm2/paramdata/${fates_para} ./inputdata/lnd/clm2/paramdata/
    cp ${input_dir}/lnd/clm2/paramdata/${clm_para} ./inputdata/lnd/clm2/paramdata/ 
 
-   tar -cvf inputdata_version2.0.0_${plotname[i]}.tar inputdata
-   mv inputdata_version2.0.0_${plotname[i]}.tar ${input_dir}/
+   tar -cvf inputdata_version2.0.1_${plotname[i]}.tar inputdata
+   mv inputdata_version2.0.1_${plotname[i]}.tar ${input_dir}/
 
    rm -r inputdata
 
